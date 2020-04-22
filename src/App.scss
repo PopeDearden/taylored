@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+$base-color: #2d545e;
+$base-shadow: #12343b;
+$light-color: #e1b382;
+$light-shadow: #c89666;
+$fancy-font: 'Kurale', serif;
+.App {
+    margin: 0px;
+    max-width: 100vw;
+    overflow-x: hidden;
+    font-family: 'Raleway', sans-serif;
+    max-height: 100vh;
+    overflow-y: scroll;
+    ::-webkit-scrollbar { 
+        display: none; 
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 1.5rem;
+        font-weight: bolder;
+        font-weight: 1000;
+    }
+    p {
+        font-size: 1rem;
+    }
+}
+.Nav-Bar {
+    position: sticky;
+    top:0;
+    padding-left: 12.5vw;
+    min-width: 100%;
+    height: 50px;
+    background-color: $base-color;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: solid 2px $light-shadow;
+    z-index: 1;
+}
+.Nav-Button {
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding: 10px;
+    color: white;
+    background-color: transparent;
+    height: 20px;
+    cursor: pointer;
+    transition: all .15s ease-in;
+    h2{
+        font-size: 1rem;
+        border-bottom: solid 2px transparent;
+        transition: .15s ease-in;
+    }
+}
+
+.Nav-Button:hover{
+    color: $light-color;
+    h2{
+        border-bottom: solid 2px $light-shadow;
+    }
+
+}
+#My-Name{
+    color: $light-color;
+    font-weight: bold;
+
+}
+.Cover {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+        font-size: 3rem;
+    }
+        min-width: 100%;
+        min-height: 100vh;
+        background: linear-gradient(-45deg, $base-color, $base-shadow, $light-shadow,$base-color,$base-shadow,$base-color, $base-shadow, $light-shadow,$base-color,$base-shadow,$base-color, $base-shadow, $light-shadow,$base-color,$base-shadow, $base-color, $base-shadow, $light-shadow,$base-color,$base-shadow,$base-color, $base-shadow, $light-shadow,$base-color,$base-shadow,$base-color, $base-shadow, $light-shadow,$base-color,$base-shadow,);
+        background-size: 1000% 1000%;
+        animation: gradient 80s linear infinite;
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+}
+.Cover-Button{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    width: 250px;
+    height: 30px;
+    border: solid 4px white;
+    cursor: pointer;
+    transition: .25s ease-in;
+    i {
+        transition: .25s ease-in;
+    }
+}
+.Cover-Button:hover {
+    color: $base-shadow;
+    background-color: $light-color;
+    i  {
+        transform: rotate(90deg);
+    }
+}
+.About {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+}
+.Page-Title {
+    margin-top: 75px;
+    h1{
+        border-bottom: solid 2px;
+        font-weight: bold;
+    }
+}
+.About-List {
+    display: flex;
+    justify-content: space-around;
+    width: 75vw;
+    height: auto;
+    margin-top: 100px;
+}
+.List-Item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    text-align: center;
+    h2{
+        margin-top: 10px;
+    }
+    p{
+        margin-top: 5px;
+        max-width: 200px;
+    }
+}
+.Circle {
+    font-size: 3rem;
+    color: $light-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: $base-color;
+    border: solid 10px $base-shadow;
+    width: 100px;
+    height: 100px;
+}
+.About-Section {
+    display: flex;
+    justify-content: space-between;
+    width: 75vw;
+}
+.Experience {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50%;
+
+}
+.Profile-Box {
+    width: 37.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    h2 {
+        margin-top: 25px;
+        text-align: center;
+        // font-family: $fancy-font;
+    }
+    p{
+        margin-top: 25px;
+        text-align: center;
+        width: 375px;
+        font-style: italic;
+        line-height: 1.6;
+    }
+    img {
+        height: auto;
+        width: 300px;
+        border-radius: 50%;
+        border: solid 20px $base-shadow;
+    }
+}
+.Skills-Box {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Skill {
+    margin-right: 10px;
+    margin-bottom: 50px;
+    border: solid 10px $base-shadow;
+    color: $base-color;
+    width: 150px;
+    height: 85px;
+    background-color: $light-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    h2{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    i{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    img {
+
+    }
+}
