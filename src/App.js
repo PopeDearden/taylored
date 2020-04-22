@@ -10,10 +10,12 @@ import './Reset.scss'
 function App() {
   return (
     <div className="App">
-      <Cover/>
-      <Nav/>
-      <About/>
-      <Projects/>
+     
+        <Nav />
+        <Cover id="Home"/>
+        <About id="About"/>
+        <Projects id="Projects"/>
+
     </div>
   );
 }

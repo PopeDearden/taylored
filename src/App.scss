@@ -11,8 +11,8 @@ $fancy-font: 'Kurale', serif;
     max-width: 100vw;
     overflow-x: hidden;
     font-family: 'Raleway', sans-serif;
-    max-height: 100vh;
-    overflow-y: scroll;
+    height: auto;
+    overflow-y: auto;
     ::-webkit-scrollbar { 
         display: none; 
     }
@@ -28,8 +28,13 @@ $fancy-font: 'Kurale', serif;
         font-size: 1rem;
     }
 }
+.Content {
+    ::-webkit-scrollbar { 
+        display: none; 
+    }
+}
 .Nav-Bar {
-    position: sticky;
+    position: fixed;
     top:0;
     padding-left: 12.5vw;
     min-width: 100%;
@@ -83,7 +88,7 @@ $fancy-font: 'Kurale', serif;
     }
         min-width: 100%;
         min-height: 100vh;
-        background: linear-gradient(-45deg, $base-color, $base-shadow, $light-shadow,$base-color,$base-shadow,$base-color, $base-shadow, $light-shadow,$base-color,$base-shadow,$base-color, $base-shadow, $light-shadow,$base-color,$base-shadow, $base-color, $base-shadow, $light-shadow,$base-color,$base-shadow,$base-color, $base-shadow, $light-shadow,$base-color,$base-shadow,$base-color, $base-shadow, $light-shadow,$base-color,$base-shadow,);
+        background: linear-gradient(-45deg, $base-color, $base-shadow, $base-color,$base-shadow,$base-color, $base-shadow, $base-color,$base-shadow,$base-color, $base-shadow, $base-color,$base-shadow, $base-color, $base-shadow, $base-color,$base-shadow,$base-color, $base-shadow, $base-color,$base-shadow,$base-color, $base-shadow, $base-color,$base-shadow,);
         background-size: 1000% 1000%;
         animation: gradient 80s linear infinite;
     @keyframes gradient {
@@ -290,6 +295,7 @@ $fancy-font: 'Kurale', serif;
         align-items: center;
         height: 100%;
         width: 100%;
+        color: $base-color;
     }
     h2{
         text-align: center;

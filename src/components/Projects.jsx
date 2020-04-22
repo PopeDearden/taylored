@@ -13,7 +13,7 @@ class Projects extends Component {
     }
     render() {
         return (
-            <div className="Projects">
+            <div id="section1" className="Projects">
                 <div className="Page-Title">
                     <h1>Noteable Projects</h1>
                 </div>
@@ -24,7 +24,7 @@ class Projects extends Component {
                         <Flip top>
                         <div className="Project-Words">
                         <h2>Technoglyph</h2>
-                        <h3>Petroglyph Analysis Software</h3>
+                        <h3>Petroglyph Analysis Software.</h3>
                         </div>
                         </Flip>
                     </div>
@@ -35,7 +35,7 @@ class Projects extends Component {
                         <Flip top>
                         <div className="Project-Words">
                         <h2>Fundraiser Portal</h2>
-                        <h3>Sales and inventory management software</h3>
+                        <h3>Fundraiser sales and inventory management software used by teachers and students!</h3>
                         </div>
                         </Flip>
                     </div>
@@ -57,7 +57,7 @@ class Projects extends Component {
                         <Flip top>
                         <div className="Project-Words">
                         <h2>Foundation for Ancient American Studies</h2>
-                        <h3>Custom React App informational website</h3>
+                        <h3>Custom React App informational website.</h3>
                         </div>
                         </Flip>
                     </div>
