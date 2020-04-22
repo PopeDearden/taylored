@@ -61,7 +61,7 @@ class About extends Component {
                     </Zoom>
                     <div className="Experience">
                         <Zoom top>
-                        <h1>Skills</h1>
+                        <h1>Tech Skills</h1>
                         </Zoom>
                         <Flip right cascade>
                             <div className="Skills-Box">

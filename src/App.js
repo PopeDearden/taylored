@@ -4,6 +4,7 @@ import './App.scss'
 import Nav from './components/Nav'
 import Cover from './components/Cover'
 import About from './components/About'
+import Projects from './components/Projects'
 import './Reset.scss'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Cover/>
       <Nav/>
       <About/>
+      <Projects/>
     </div>
   );
 }

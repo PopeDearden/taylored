@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import '../App.scss'
-
+import Slide from 'react-reveal/Slide';
 
 
 class Nav extends Component {
@@ -12,6 +12,7 @@ class Nav extends Component {
   }
   render(){
     return(
+      <Slide right>
       <div className = "Nav-Bar" >
           <div className="Nav-Button">
               <h2>HOME</h2>
@@ -29,7 +30,8 @@ class Nav extends Component {
               <h2>CONTACT</h2>
           </div>
       </div>
-    )
+      </Slide>
+)
 
   }
 }
