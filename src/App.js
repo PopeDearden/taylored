@@ -16,7 +16,7 @@ function App() {
         <Cover id="Home"/>
         <About id="About"/>
         <Projects id="Projects"/>
-        <Contact id="Contacts"/>
+        {/* <Contact id="Contacts"/> */}
         <Footer/>
 
     </div>

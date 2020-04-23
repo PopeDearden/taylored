@@ -22,10 +22,11 @@ class Nav extends Component {
             offset={0}
             duration={500}
           >
-            <div className="Nav-Button">
+            <div className="Nav-Button" id="FirstOne">
               <h2>TAYLOREDCODING</h2>
             </div>
           </Link>
+        
           <Link
             to="About"
             activeClass="active"
@@ -35,7 +36,7 @@ class Nav extends Component {
             duration={500}
           >
             <div className="Nav-Button">
-              <h2>ABOUT</h2>
+              <h2>WHAT I DO</h2>
             </div>
           </Link>
           <Link
@@ -47,7 +48,7 @@ class Nav extends Component {
             duration={500}
           >
             <div className="Nav-Button">
-              <h2>PORTFOLIO</h2>
+              <h2>NOTEABLE PROJECTS</h2>
             </div>
           </Link>
           <Link
