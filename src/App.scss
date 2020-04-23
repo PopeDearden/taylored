@@ -77,6 +77,70 @@ $fancy-font: 'Kurale', serif;
     font-weight: bold;
 
 }
+.Footer {
+    min-height: 25vh;
+    width: 100vw;
+    background: $base-shadow;
+    background-image: linear-gradient(to bottom right, $base-color, $base-shadow);
+    color: $light-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        height: 100px;
+        width: 100px;
+        margin-right: 25px;
+    }
+}
+.Contact {
+    color: $base-shadow;
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.Contact-Format {
+    margin-top: 50px;
+    width: 75vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.Contact-Text {
+    padding-left: 25px;
+    border-left: solid 4px;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    p {
+        margin-top: 25px;
+    }
+    i {
+        margin-top: 25px;
+        margin-right: 10px;
+        font-size: 2rem;
+    }
+}
+.Footer-Box {
+    max-width: 75vw;
+    min-width: 75vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.Footer-Text {
+    padding-left: 25px;
+    border-left: solid 4px;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 .Cover {
     color: white;
     display: flex;
