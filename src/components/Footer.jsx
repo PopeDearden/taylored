@@ -16,9 +16,9 @@ class Footer extends Component {
                 <div className="Footer-Box">
                     <div className="Footer-Text">
                         <h2>Contact info:</h2>
-                        <p>© Taylor Dearden 2020</p>
                         <p>taylordearden@gmail.com</p>
                         <p>(801) 425-4122</p>
+                        <p>© Taylor Dearden 2020</p>
                     </div>
                 
                 </div>

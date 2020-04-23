@@ -52,7 +52,7 @@ class Nav extends Component {
             </div>
           </Link>
           <Link
-            to="Contact"
+            to="Footer"
             activeClass="active"
             spy={true}
             smooth={true}
