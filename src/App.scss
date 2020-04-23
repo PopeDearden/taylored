@@ -296,15 +296,153 @@ $fancy-font: 'Kurale', serif;
         height: 100%;
         width: 100%;
         color: $base-color;
+        button {
+            margin-top: 20px;
+            width: auto;
+            height: 40px;
+            color: white;
+            border: solid 2px;
+            padding: 10px;
+            background-color:transparent;
+            transition: .25s ease-in;
+        }
+        button:hover {
+            background-color: $base-color;
+        }
     }
     h2{
         text-align: center;
-        margin-top: 15%;
+        margin-top: 8%;
         font-size: 2rem;
     }
     h3{
         text-align: center;
         margin-top:2%;
         font-size: 1.5rem;
+    }
+}
+.Highlight {
+    position: fixed;
+  bottom: 12.5%;
+  right: 12.5%;
+  width: 75%;
+  height: 75%;
+  border: 10px solid $light-color;
+  box-shadow: 5px 5px 15px 5px $base-shadow;
+  background-color: white;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $base-shadow;
+  padding: 15px;
+  h1 {
+      margin: 15px;
+  }
+  h2{
+      margin: 15px;
+  }
+  p{
+      margin: 15px
+    }
+    button {
+        width: auto;
+        height: 40px;
+        color: $base-color;
+        border: solid 2px;
+        padding: 10px;
+        background-color:transparent;
+        transition: .25s ease-in;
+    }
+    button:hover {
+        background-color: $light-color;
+    }
+}
+.Exit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 15%;
+  right: 14%;
+  width: 10%;
+  height: 30px;
+  background-color: $background-gray;
+  border: 10px solid $base-color;
+  border-radius: 5px;
+  color: $base-shadow;
+  z-index: 1;
+  transition: .25s ease-in;
+}
+.Exit:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 15px 5px $base-shadow;
+    
+}
+
+.Good-true{
+    display: flex;
+}
+.Good-false{
+    display: none;
+}
+.Technoglyph-true{
+    display: flex;
+}
+.Technoglyph-false{
+    display: none;
+}
+.Ffaas-true{
+    display: flex;
+}
+.Ffaas-false{
+    display: none;
+}
+.Fund-true{
+    display: flex;
+}
+.Fund-false{
+    display: none;
+}
+.Split {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+.Spliting {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Stack {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    justify-content: flex-start;
+    min-height: 450px;
+}
+.Stack2 {
+    max-height: 450px;
+    min-width: 450px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    justify-content: flex-start;
+    border-left: solid 10px $light-color;
+    background-color: $background-gray;
+
+    p{
+        min-width: 200px;
+        max-width: 200px;
+    }
+    img {
+     width: 400px;
+     height: 200px;
+   margin: 10px;
     }
 }
