@@ -320,6 +320,7 @@ $header: 'Roboto', sans-serif;
     justify-content: center;
     align-items: center;
     font-size: 3rem;
+    
     h2{
         margin-left: 5px;
         margin-right: 5px;
@@ -539,5 +540,231 @@ $header: 'Roboto', sans-serif;
      width: 400px;
      height: 200px;
    margin: 10px;
+    }
+}
+
+
+@media(max-width: 1300px){
+ .Experience{
+justify-content: center;
+ }
+    .Skill {
+    height: 57px;
+    width: 100px;
+    font-size: 2rem;
+    h2{
+        font-size: 1rem;
+    }
+    img{
+        width:35px
+    }
+ }
+}
+@media(max-width: 1230px){
+    .Projects {
+        justify-content: center;
+        align-items: center;
+        min-height: 75vh;
+        background-color: $background-gray;
+        background-size: 100%;
+        background-position: cover;
+        h1 {
+            color: $base-shadow;
+        }
+    }
+    .Projects-List {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .Project-Box {
+        margin-top: 25px;
+        width: 280px;
+        height: 150px;
+        background-color: $base-color;
+        transition: .25s ease-in-out;
+        border: solid 5px $base-shadow;
+        cursor: pointer;
+        .Project-Words{
+            display: none;
+        }
+        img {
+            width: 280px;
+            height: 150px;
+            transition: .25s ease-in-out;
+        }
+    }
+    .Project-Box:hover {
+        background-color: $light-color;
+        border: solid 5px $light-shadow;
+        img{
+            height: 0px;
+            margin: 0px;
+            padding: 0px;
+        }
+        .Project-Words {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: space-evenly;
+            height: 100%;
+            width: 100%;
+            color: $base-color;
+            button {
+                margin-top: 5px;
+                width: auto;
+                height: auto;
+                color: white;
+                border: solid 1px;
+                padding: 5px;
+                background-color:transparent;
+                transition: .25s ease-in;
+            }
+            button:hover {
+                background-color: $base-color;
+            }
+        }
+        h2{
+            text-align: center;
+            margin-top: 5px;
+            font-size: 1.5rem;
+        }
+        h3{
+            text-align: center;
+            margin-top: 5px;
+            font-size: 1rem;
+        }
+    }
+}
+@media(max-width: 1100px){
+.Cover {
+    h1{
+        font-size: 2.5rem;
+    }
+}
+}
+@media(max-width: 1000px){
+    .About-Section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .About-List {
+        flex-wrap: wrap;
+    }
+    .Skills-Box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .Skill {
+        margin-right: 5px;
+        margin-bottom: 10px;
+        border: solid 10px $base-shadow;
+        color: $base-color;
+        width: 150px;
+        height: 85px;
+        background-color: $light-color;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 3rem;
+        h2{
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        i{
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    }
+    .Experience {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 75%;
+        h1{
+            font-family: $header;
+            margin-top: 25px;
+        }
+        
+    }
+    .Profile-Box {
+        width: 75vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        h1{
+            font-family: $header;
+        }
+        h2 {
+            margin-top: 25px;
+            text-align: left;
+            font-family: $header
+        }
+        p{
+            margin-top: 25px;
+            text-align: left;
+            width: 375px;
+            font-style: italic;
+            line-height: 1.6;
+        }
+        img {
+            height: auto;
+            width: 300px;
+            border-radius: 50%;
+            border: solid 20px $base-shadow;
+        }
+    }
+}
+@media(max-width: 950px){
+    .Box1{
+        max-width: 60vw;
+        h1{
+            text-align: center;
+        }
+    }
+    .Projects{
+        min-height: 100vh;
+    }
+}
+@media(max-width: 750px){
+    .Nav-Bar {
+        display: none;
+    }
+}
+@media(max-width: 670px){
+    .About-List{
+        justify-content: center;
+    }
+    .Experience{
+        min-width: 95vw;
+    }
+    .Skill {
+        height: 57px;
+        width: 100px;
+        font-size: 2rem;
+        h2{
+            font-size: 1rem;
+        }
+        img{
+            width:35px
+        }
+    }
+    
+}
+@media(max-width: 500px){
+            .Skills-Box {
+                justify-content: center;
+            }
+    .Cover {
+        h1{
+            font-size: 1.5rem;
+        }
+    }
+    .Projects {
+        min-height: 125vh;
     }
 }
