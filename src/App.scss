@@ -46,7 +46,7 @@ $header: 'Roboto', sans-serif;
     justify-content: flex-start;
     align-items: center;
     border-bottom: solid 2px $light-shadow;
-    z-index: 1;
+    z-index: 2;
 }
 #FirstOne{
     margin-left: 12vw;
@@ -411,10 +411,10 @@ $header: 'Roboto', sans-serif;
 }
 .Highlight {
     position: fixed;
-  bottom: 1%;
-  right: 12.5%;
-  width: 75%;
-  height: 90%;
+  bottom: 0;
+  right: 0;
+  width: auto;
+  height: 86vh;
   border: 10px solid $light-color;
   box-shadow: 5px 5px 15px 5px $base-shadow;
   background-color: white;
@@ -451,8 +451,8 @@ $header: 'Roboto', sans-serif;
   justify-content: center;
   align-items: center;
   position: fixed;
-  bottom: 3%;
-  right: 14%;
+  top: 75px;
+  right: 15px;
   width: 10%;
   height: 30px;
   background-color: $background-gray;
@@ -464,8 +464,7 @@ $header: 'Roboto', sans-serif;
 }
 .Exit:hover {
     cursor: pointer;
-    box-shadow: 5px 5px 15px 5px $base-shadow;
-    
+    box-shadow: 2px 2px 2px 2px $light-color;
 }
 
 .Good-true{
@@ -497,6 +496,13 @@ $header: 'Roboto', sans-serif;
     justify-content: space-between;
     align-items: flex-start;
     margin: 10px;
+}
+.Split3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 10px;
+    max-height: 200px;
 }
 .Spliting {
     width: 80%;
@@ -543,6 +549,65 @@ $header: 'Roboto', sans-serif;
     }
 }
 
+.DisplayCase {
+    position: fixed;
+    color: $base-color;
+    bottom:0;
+    right:0;
+    width: 100vw;
+    height: 100vh;
+    background-color: $background-gray;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    max-height: 100vh;
+    overflow-y: auto;
+    img{
+        width:400px;
+        height:200px;
+    }
+}
+.ProjectInfo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    p{
+        width:45%
+    }
+    button {
+        margin-top: 20px;
+        width: auto;
+        height: 40px;
+        color: $light-shadow;
+        border: solid 2px;
+        padding: 10px;
+        background-color:transparent;
+        transition: .25s ease-in;
+    }
+    button:hover {
+        color: white;
+        background-color: $base-color;
+    }
+}
+.MarginFix{
+    margin-top:75px;
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    h1{
+        color: $base-shadow;
+        font-family: $header;
+    }
+    h2{
+        margin-top:25px;
+        color: $base-shadow
+    }
+    p{
+        margin-top: 25px;
+    }   
+}
 
 @media(max-width: 1300px){
  .Experience{
@@ -641,6 +706,30 @@ justify-content: center;
         font-size: 2.5rem;
     }
 }
+.Split{
+    flex-direction: column;
+    min-width: 100%;
+    p{
+        max-width: none;
+        min-width: 100%;
+    }
+}
+.Split3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 5px;
+}
+.Stack {
+    min-width: 100%;
+    min-height: auto;
+}
+.Stack2{
+    border: none;
+    min-height: 10px;
+    min-width: 100%;
+    max-height: 325px;
+}
 }
 @media(max-width: 1000px){
     .About-Section{
@@ -728,6 +817,48 @@ justify-content: center;
     }
     .Projects{
         min-height: 100vh;
+    }
+    .ProjectInfo{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 25px;
+        p{
+            width:90%
+        }
+        button {
+            margin-top: 20px;
+            width: auto;
+            height: 40px;
+            color: $light-shadow;
+            border: solid 2px;
+            padding: 10px;
+            background-color:transparent;
+            transition: .25s ease-in;
+        }
+        button:hover {
+            color: white;
+            background-color: $base-color;
+        }
+    }
+    .MarginFix{
+        margin-top:75px;
+        width: 95vw;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        h1{
+            color: $base-shadow;
+            font-family: $header;
+        }
+        h2{
+            margin-top:25px;
+            color: $base-shadow
+        }
+        p{
+            margin-top: 25px;
+        }   
     }
 }
 @media(max-width: 750px){
