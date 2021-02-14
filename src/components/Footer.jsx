@@ -18,7 +18,7 @@ class Footer extends Component {
                         <h2>Contact info:</h2>
                         <p>taylordearden@gmail.com</p>
                         <p>(801) 425-4122</p>
-                        <p>© Taylor Dearden 2020</p>
+                        <p>© Taylor Dearden 2021</p>
                     </div>
                 
                 </div>

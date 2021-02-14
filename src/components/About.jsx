@@ -31,7 +31,7 @@ class About extends Component {
                                 <i class="fas fa-hand-holding-heart"></i>
                             </div>
                             <h2>Social<br></br> Entrepreneurship</h2>
-                            <p>North America Director of Good Always™ Inc</p>
+                            <p>Web Developer and North America Director for Good Always™ LLC</p>
                         </div>
                         <div className="List-Item">
                             <div className="Circle">
