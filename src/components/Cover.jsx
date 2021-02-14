@@ -25,7 +25,7 @@ class Cover extends Component {
             offset={0}
             duration={500}
           >
-              <div className="Cover-Button"><h2>View my work</h2><i class="far fa-arrow-alt-circle-right"></i></div>
+              <div className="Cover-Button"><h2>Learn More</h2><i class="far fa-arrow-alt-circle-right"></i></div>
           </Link>
       </div>
     )
