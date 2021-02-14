@@ -22,7 +22,7 @@ function Projects () {
                                     <h2>Technoglyph</h2>
                                     <h3>Petroglyph Analysis Software.</h3>
                                     <div className="Spliting">
-                                        <button onClick={() => this.setState({ technoglyph: true })}>LEARN MORE</button>
+                                        {/* <button onClick={() => this.setState({ technoglyph: true })}>LEARN MORE</button> */}
                                         <a href="https://www.technoglyph.org" target="_blank">
                                             <button>VISIT SITE</button>
                                         </a>
