@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import '../App.scss'
 import Flip from 'react-reveal/Flip';
-import Zoom from 'react-reveal/Zoom';
-import Slide from 'react-reveal/Slide';
+import Fade from 'react-reveal/Fade';
 class About extends Component {
     constructor(s) {
         super()
@@ -13,12 +12,12 @@ class About extends Component {
     render() {
         return (
             <div className="About" >
-                <Slide left>
+                <Fade bottom>
                     <div className="Page-Title">
                         <h1>What I do</h1>
                     </div>
-                </Slide>
-                <Zoom right cascade>
+                </Fade>
+                <Fade bottom cascade>
                     <div className="About-List">
                         <div className="List-Item">
                             <div className="Circle">
@@ -39,30 +38,30 @@ class About extends Component {
                                 <i class="fas fa-ankh"></i>
                             </div>
                             <h2>Antiquity <br></br>Research</h2>
-                            <p>Board member of The Foundation for Ancient American Studies</p>
+                            <p>Board member of The Ancient Historical Research Foundation</p>
                         </div>
                         <div className="List-Item">
                             <div className="Circle">
-                                <i class="fas fa-tasks"></i>
+                            <i class="fas fa-donate"></i>
                             </div>
-                            <h2>Product <br></br> Management</h2>
-                            <p>Creator of Fundraiser Portal™: sales and inventory management software</p>
+                            <h2>Humanitarian <br></br>Work</h2>
+                            <p>Volunteer for Stones of Light Education Foundation and Light-It-Forward</p>
                         </div>
                     </div>
-                </Zoom>
+                </Fade>
 
                 <div className="About-Section">
-                    <Zoom bottom cascade>
+                    <Fade bottom cascade>
                         <div className="Profile-Box">
                             <img src={this.state.pic1} alt="Taylor Dearden" />
-                            <h2>My dream and purpose</h2>
-                            <p>Because I believe technology is our best asset to combat extreme poverty, my dream and purpose is to help individuals and families living in the margins of poverty develop tech skills.</p>
+                            <h2>My Vision</h2>
+                            <p>I am focused on helping as many families escape extreme poverty as I can. I believe tech skills and online education is the best path to make that difference.</p>
                         </div>
-                    </Zoom>
+                    </Fade>
                     <div className="Experience">
-                        <Zoom top>
+                        <Fade top>
                         <h1>Tech Skills</h1>
-                        </Zoom>
+                        </Fade>
                         <Flip right cascade>
                             <div className="Skills-Box">
                                 <div className="Skill">
