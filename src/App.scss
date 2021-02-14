@@ -339,6 +339,7 @@ $header: 'Roboto', sans-serif;
     background-color: $background-gray;
     background-size: 100%;
     background-position: cover;
+    padding-bottom: 50px;
     h1 {
         color: $base-shadow;
     }
@@ -377,9 +378,10 @@ $header: 'Roboto', sans-serif;
         padding: 0px;
     }
     .Project-Words {
+        background-color: red;
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
         height: 100%;
         width: 100%;
@@ -390,7 +392,7 @@ $header: 'Roboto', sans-serif;
             height: 40px;
             color: white;
             border: solid 2px;
-            padding: 10px;
+            // padding: 10px;
             background-color:transparent;
             transition: .25s ease-in;
         }
@@ -400,12 +402,12 @@ $header: 'Roboto', sans-serif;
     }
     h2{
         text-align: center;
-        margin-top: 8%;
+        // margin-top: 8%;
         font-size: 2rem;
     }
     h3{
         text-align: center;
-        margin-top:2%;
+        // margin-top:2%;
         font-size: 1.5rem;
     }
 }

@@ -33,11 +33,23 @@ function Projects () {
                     </Flip>
                     <Flip top>
                         <div className="Project-Box">
+                            <img src="https://cdn.shopify.com/s/files/1/0040/3786/9638/files/light_it_forward_snapshot.png?v=1613271602" alt="Technoglyph"/>
+                            <Flip top>
+                                <div className="Project-Words">
+                                    <h2>Light-It-Forward</h2>
+                                    <h3>React App focused on receiving donations.</h3>
+                                    <a href="https://light-it-forward.org/" target="_blank"><button>Visit Site</button></a>
+                                </div>
+                            </Flip>
+                        </div>
+                    </Flip>
+                    <Flip top>
+                        <div className="Project-Box">
                             <img src="https://lh3.googleusercontent.com/-zxNY3bNuoO1cDPCISSQjIxx0ZT3CRg68PqdwP_42uTSIK6rOzgF2jpDJPnRB2FIFgrZCZ_rPK1RF2Ik1ATBZiBj7xX9Mo3uvEoHLoMH6BW1SU_cYSVQEJYRFHOqYiqPt0m2BDJqO5NbvsY9_chqS9QbSNFOaUmDkMgSfi1aWkORSFWy-_aeFD2Db494oPTFU0wjDbs7I18qny90ZXQJHhHUAy7QfiVRE_UNDkUyBMqF7j5Znh1y77DBCdPU6N-W3AK5vawJBVtGFiDjzgoMtTsPTO_uNRShVo4wgl5WoS-PZuY5ePf_tkhclw3LYy9jEaCwmiRr2lbYl4cvNcqROAkCU98kCcl1yFHxY1wDgi475x8MB6nfHXyMZvIegz4o-k-6D28TQqIbW8q06Bv-pb2BKbQtOeePQQdH03zhphEYv7DSt7tuBa8o33Yuvo5ohncYokfGlcI8zfIkE6V9fsD_X2bEcEWgmYzoj0T9qU8FVC49o9XBoYk7DxO8JYgaBZ__sCiaWAhtQZ8uc6zAXKBDUnaK-GpF9t-v9BGq_IYLVfxUggpkg3CEJp3YTwZbUOB546gjKEBcIaFBKd0I3QC_cuSJErYsJUJRRHrWVnq5bWMiMz9GneZNsIvrRt6izKPq6t2cwWtsCvFLuCBpeQN3e4occ7VqOJWgeOOtBW6SmrumkoagRPa1LYE2TriYRe56jvkviIs9FDBqDiGo2GO3GGclHhcYeHsqicn9IqD60Z08AeYVGns=w1781-h886-no" alt="Fundraiser Portal" />
                             <Flip top>
                                 <div className="Project-Words">
                                     <h2>Fundraiser Portal</h2>
-                                    <h3>Fundraiser sales and inventory management software used by teachers and students!</h3>
+                                    <h3>Fundraiser sales and inventory management software for teachers and students!</h3>
                                     <a href="https://www.fundraiserportal.com" target="_blank"><button>Visit Site</button></a>
                                 </div>
                             </Flip>
@@ -67,6 +79,19 @@ function Projects () {
                             </Flip>
                         </div>
                     </Flip>
+                    <Flip top>
+                        <div className="Project-Box">
+                            <img src="https://lh3.googleusercontent.com/pw/ACtC-3dO9ICntEFX9j6Z5uKQQKkPYZRqKOsQdHrswI1uX42HvG7QomimREoxaGwsizdI6P33ZXqn29smxofEx47FQeZxaPEp6bVoRI5C8BibizGCu97ZYuax8t_3W_G957bOZKJ5KOO2DlaUDJmsfGxU2FGGyA=w1888-h938-no?authuser=0" alt="Technoglyph"/>
+                            <Flip top>
+                                <div className="Project-Words">
+                                    <h2>AHRF Website</h2>
+                                    <h3>React App currently in development.</h3>
+                                    <a href="https://ahrf.netlify.app/" target="_blank"><button>Visit Site</button></a>
+                                </div>
+                            </Flip>
+                        </div>
+                    </Flip>
+               
 
                 </div>
             </div>
