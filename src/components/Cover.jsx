@@ -10,14 +10,19 @@ class Cover extends Component {
 
     }
   }
+  componentDidMount(){
+    setTimeout(()=>{
+      window.location.href="https://tayloredsoftware.dev"
+    }, 5000)
+  }
   render(){
     return(
       <div className = "Cover" id="Home" >
           <div className = "Box1">
-              <h1>Hello! My name is <b id="My-Name">Taylor Dearden,</b></h1>
-              <h1>I'm a full stack software engineer.</h1>
+              <h1><b id="My-Name">Taylor Dearden</b> has a new portfolio!</h1>
+              <h1>You will be redirected there shortly.</h1>
           </div>
-          <Link
+          {/* <Link
             to="About"
             activeClass="active"
             spy={true}
@@ -26,7 +31,7 @@ class Cover extends Component {
             duration={500}
           >
               <div className="Cover-Button"><h2>Learn More</h2><i class="far fa-arrow-alt-circle-right"></i></div>
-          </Link>
+          </Link> */}
       </div>
     )
 

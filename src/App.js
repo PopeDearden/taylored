@@ -14,10 +14,10 @@ function App() {
      
         <Nav />
         <Cover id="Home"/>
-        <About id="About"/>
-        <Projects id="Projects"/>
+        {/* <About id="About"/> */}
+        {/* <Projects id="Projects"/> */}
         {/* <Contact id="Contacts"/> */}
-        <Footer id="Footer"/>
+        {/* <Footer id="Footer"/> */}
 
     </div>
   );

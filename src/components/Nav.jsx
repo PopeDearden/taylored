@@ -27,7 +27,7 @@ class Nav extends Component {
             </div>
           </Link>
         
-          <Link
+          {/* <Link
             to="About"
             activeClass="active"
             spy={true}
@@ -62,7 +62,7 @@ class Nav extends Component {
             <div className="Nav-Button">
               <h2>CONTACT</h2>
             </div>
-          </Link>
+          </Link> */}
             
         </div>
       // </Slide>
